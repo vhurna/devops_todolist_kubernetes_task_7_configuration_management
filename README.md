@@ -34,8 +34,8 @@ Create a kubernetes manifest for a pod which will containa ToDo app container:
 1. Fork this repository.
 1. Create a `confgiMap.yml` file for ConfigMap resource.
 1. ConfigMap requirements:
-3.1. ConfigMap should have a `PYTHONUNBUFFERED` values set
-3.2. Deployment shoyld use this ConfigMap and set `PYTHONUNBUFFERED` environment variable
+    3.1. ConfigMap should have a `PYTHONUNBUFFERED` values set
+    3.2. Deployment shoyld use this ConfigMap and set `PYTHONUNBUFFERED` environment variable
 1. Create a `secret.yml` file for Secret resource.
 1. Secret requirements:
 5.1. Secret should have a `SECRET_KEY` value set
